@@ -12,7 +12,7 @@ def function_1(x):
     return 0.01*x**2 + 0.1*x 
 
 
-def tangent_line(f, x):
+def tangent_line(f, x):#함수에서 점x에서의 접선의 방정식
     d = numerical_diff(f, x)
     print(d)
     y = f(x) - d*x
